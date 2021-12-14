@@ -1,0 +1,89 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <MSBuildAllProjects>$(MSBuildAllProjects);$(MSBuildThisFileFullPath)</MSBuildAllProjects>
+    <HasSharedItems>true</HasSharedItems>
+    <SharedGUID>b593e6ca-b197-4c66-9b57-115095f4d258</SharedGUID>
+  </PropertyGroup>
+  <PropertyGroup Label="Configuration">
+    <Import_RootNamespace>Vorcyc.PowerLibrary</Import_RootNamespace>
+  </PropertyGroup>
+  <ItemGroup>
+    <Compile Include="$(MSBuildThisFileDirectory)ArrayEx\ArrayExtension.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)ArrayEx\NumericArrayExtension.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)AssemblyInfo.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Buffer\BitConveter.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Buffer\BitWriter.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Buffer\BufferOperation.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Buffer\Super.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)CollectionEx\EnumerableEx.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)DateTimeExtension\GetDays.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Drawing\ColorHelper.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Drawing\Point.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Drawing\PointF.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Drawing\Rectangle.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Drawing\RectangleF.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Drawing\Size.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Drawing\SizeF.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)IO\CoalescentFileManager.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)IO\Compression.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)IO\FileScaner.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)IO\IniFileManager.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)IO\PackFileManager.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)IO\Projection.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)IO\ProjectionFormat.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)IO\ProjectionMemberAttribute.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)IO\ProjectionRuntimeHelper.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)LanguageExtension\BooleanTypeExtension.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)LanguageExtension\Loops.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)LanguageExtension\TypeChecker.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)MathExtension\Conveter.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)MathExtension\ExpressionCalculator.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)MathExtension\MathEx.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)MathExtension\Number.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)MathExtension\Percentage.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)MathExtension\Range.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)PowerCollections\Algorithms.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)PowerCollections\Bag.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)PowerCollections\BigList.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)PowerCollections\CollectionBase.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)PowerCollections\Comparers.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)PowerCollections\Deque.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)PowerCollections\DictionaryBase.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)PowerCollections\Hash.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)PowerCollections\ListBase.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)PowerCollections\MultiDictionary.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)PowerCollections\MultiDictionaryBase.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)PowerCollections\OrderedBag.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)PowerCollections\OrderedDictionary.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)PowerCollections\OrderedMultiDictionary.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)PowerCollections\OrderedSet.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)PowerCollections\Pair.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)PowerCollections\ReadOnlyCollectionBase.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)PowerCollections\ReadOnlyDictionaryBase.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)PowerCollections\ReadOnlyListBase.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)PowerCollections\ReadOnlyMultiDictionaryBase.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)PowerCollections\RedBlack.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)PowerCollections\Set.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)PowerCollections\Strings.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)PowerCollections\Triple.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)PowerCollections\Util.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Runtime\DynamicClassCreator.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Runtime\ObjectHelper.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Runtime\SerializationHelper.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)StringManipulation\CharExtension.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)StringManipulation\Pinyin.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)StringManipulation\RegexHelper.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)StringManipulation\StringExtension.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)StringManipulation\StringPairExtension.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)StringManipulation\StringPair.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Threading\ActionQueue.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Threading\Looper.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Threading\MessagePump.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Threading\Pump.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Threading\ThreadTimer.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="$(MSBuildThisFileDirectory).editorconfig" />
+  </ItemGroup>
+</Project>

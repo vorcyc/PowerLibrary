@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v3.1",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v3.1": {
+      "Vorcyc.PowerLibrary/8.0.4.0": {
+        "runtime": {
+          "Vorcyc.PowerLibrary.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Vorcyc.PowerLibrary/8.0.4.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
